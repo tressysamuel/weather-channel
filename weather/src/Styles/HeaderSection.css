@@ -32,4 +32,13 @@
 
 .headerBottom {
     background-color: #337A9E;
-}   
+    padding: 1rem;
+}
+.headerLeft{
+    background-color:#192c42;
+    padding: 1rem;
+    color: aliceblue;}
+
+.headerLeft a{
+    gap:3rem;
+}

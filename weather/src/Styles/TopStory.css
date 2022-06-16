@@ -1,0 +1,54 @@
+.rainkolkata {
+    width: 22rem;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, .15)
+}
+
+.amid {
+    color: #1b4de4;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.southwest {
+    margin-top: 12px;
+}
+
+.Read-more {
+    color: #1b4de4;
+}
+
+.airpollution {
+    width:10rem;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, .15);
+
+}
+.delhi-air{
+    -webkit-line-clamp: 3;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 1.25em;
+    
+}
+.delhi-text{
+    width: 10rem;
+}
+.odisharain{
+    width:10rem;
+}
+.odisharain-text{
+    -webkit-line-clamp: 3;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 1.25em;
+    width: 10rem;
+}
+.north-india{
+    -webkit-line-clamp: 3;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 1.25em;
+    width: 10rem;
+}
