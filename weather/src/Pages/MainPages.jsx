@@ -1,14 +1,28 @@
 import React from "react";
 import HeaderSection from "../Component/HeaderSection";
-import TopStories from "../Component/TopStory";
-import Button from "../Component/Button";
+import TopStory from "../Component/TopStory";
+import WeatherAcross from "../Component/WeatherAcross";
+import Trending from "../Component/Trending";
+import TopViedo from "../Component/TopViedo";
+import Menu from "../Component/Menu";
+
+//  import Button from "../Component/Button";
+
+import "../Styles/main-page.css";
 
 function MainPage() {
   return (
     <div>
       <HeaderSection />
-      <TopStories />
-      <Button/>
+      <div className="main-page">
+        <TopStory heading="Top Stories" />
+        <WeatherAcross />
+        <Trending />
+        <TopViedo />
+        <Menu />
+
+        {/* <Button/>   */}
+      </div>
     </div>
   );
 }

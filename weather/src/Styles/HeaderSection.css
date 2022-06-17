@@ -1,10 +1,13 @@
 .Header-Left {
     background-color: #005986;
     display: flex;
+    padding-left: 12px;
+    padding-top: 5px;
 }
 
 .Header-weather {
-    width: 5rem;
+    width: 3rem;
+    padding-top: 5px;
 }
 
 .ibm-divider {
@@ -12,6 +15,7 @@
 }
 
 .ibm {
+    margin-left: 21px;
     width: 120px;
     height: 28px;
     padding-top: 2rem;
@@ -27,18 +31,53 @@
 .timesImg {
     width: 120px;
     height: 20px;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    margin-left: 10px;
 }
 
-.headerBottom {
-    background-color: #337A9E;
-    padding: 1rem;
-}
-.headerLeft{
-    background-color:#192c42;
-    padding: 1rem;
-    color: aliceblue;}
 
-.headerLeft a{
-    gap:3rem;
+
+.headerLeft {
+
+    background-color: #192c42;
+    padding: 1rem;
+    color: aliceblue;
+}
+
+.headerLeft a {
+    gap: 3rem;
+}
+
+.input-btn {
+
+    display: flex;
+    background: #337A9E;
+    align-items: center;
+    width: 34vw;
+    position: relative;
+    margin: auto;
+    height: 42px;
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+
+.search {
+    border: none;
+    width: 27vw;
+    padding-left: 3px;
+    background: #337A9E;
+
+
+}
+
+.humburger {
+    width: 12px;
+}
+
+.amid-monsoon {
+    width: 10px;
+}
+
+.search-icon {
+    color: white;
 }

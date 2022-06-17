@@ -1,5 +1,11 @@
-.button{
+.top-button {
+    font-weight: 800;
+    border: 1px solid #0078d4;
+    border-radius: 26px;
+    margin-top: 2rem;
+    color: white;
 
-    background-color: aqua;
-    
+    height: 2rem;
+    background-color: #1b4de4;
+    margin-left: 2rem;
 }

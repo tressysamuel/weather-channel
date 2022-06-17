@@ -1,0 +1,21 @@
+.skys-img {
+    width: 23rem;
+    border-radius: 6px;
+
+}
+
+.sky-card {
+    margin: 12px 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 12px 0 rgb(0 0 0 / 20%);
+    background-color: var(--backgroundCard);
+}
+
+.despite {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.top {
+    font-size: 19px;
+}

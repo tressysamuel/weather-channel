@@ -1,32 +1,24 @@
 import React from "react";
-import "../Styles/TopStory.css";
 import Button from "../Component/Button";
+import "../Styles/WeatherAcross.css";
 
-import { rainkolkata } from "../Assests/Images/index";
+import { friday } from "../Assests/Images/index";
 import { airpollution2 } from "../Assests/Images/index";
 import { odisharain } from "../Assests/Images/index";
 import { keralacloud } from "../Assests/Images/index";
 import { floodassam } from "../Assests/Images/index";
 
-function TopStory({ heading }) {
+function WeatherAcross() {
   return (
-    <div>
-      <h1 className="top-heading">{heading}</h1>
+    <div className="weather-across">
+      <h1 className="top-heading">Weather Across India</h1>
       <div className="top-card">
         <div className="rainkolkata-card">
-          <img src={rainkolkata} className="rainkolkata" />
+          <img src={friday} className="friday" />
 
           <div className="amid">
             <span className="amid-monsoon">
               Amid Monsoon Anticipation, West Bengal, Odisha, Jharkhand, Bihar To Be Drenched
-            </span>
-          </div>
-        </div>
-        <div className="floodassam-card">
-          <img src={floodassam} className="floodassam" />
-          <div className="floodassam-content">
-            <span>
-              Amid Monsoon Anticipation, West Bengal, Odisha, Jharkhand, Bihar To Be Drenched By Heavy Rains from June 15-18
             </span>
           </div>
         </div>
@@ -54,9 +46,8 @@ function TopStory({ heading }) {
           </div>
         </div>
       </div>
-      <Button text="See More" />
+      <Button text="Read More" />
     </div>
   );
 }
-
-export default TopStory;
+export default WeatherAcross;

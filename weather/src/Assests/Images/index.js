@@ -4,6 +4,9 @@ import rainkolkata from "./rainkolkata.jpg"
 import airpollution2 from "./airpollution2.jpg";
 import odisharain from "./odisharain.jpg";
 import keralacloud from "./keralacloud.jpg";
+import floodassam from "./floodassam.jpg";
+import friday from "./friday.jpg"
+import skys from "./skys.jpg";
 
 export {
     Headerleft,
@@ -12,4 +15,7 @@ export {
     airpollution2,
     odisharain,
     keralacloud,
+    floodassam,
+    friday,
+    skys,
 }

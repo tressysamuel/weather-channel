@@ -1,0 +1,25 @@
+.header-menu {
+    width: 24rem;
+    background-color: #005986;
+    display: flex;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+
+.menu-channel {
+    width: 3rem;
+}
+
+.menu-headerImage {
+    width: 100px;
+    padding-top: 1rem;
+    padding-left: 9px;
+}
+
+.menu-section {
+    display: flex;
+}
+
+.svg-img {
+    padding-left: 192px;
+}

@@ -1,0 +1,12 @@
+.friday {
+    width: 22rem;
+    border-radius: 23px;
+}
+
+.weather-across {
+    margin: 12px 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 12px 0 rgb(0 0 0 / 20%);
+    background-color: var(--backgroundCard);
+    padding: 14px;
+}
