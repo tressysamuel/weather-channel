@@ -4,7 +4,6 @@ import TopStory from "../Component/TopStory";
 import WeatherAcross from "../Component/WeatherAcross";
 import Trending from "../Component/Trending";
 import TopViedo from "../Component/TopViedo";
-import Menu from "../Component/Menu";
 
 //  import Button from "../Component/Button";
 
@@ -14,16 +13,17 @@ function MainPage() {
   return (
     <div>
       <HeaderSection />
-      <div className="main-page">
-        <TopStory heading="Top Stories" />
-        <WeatherAcross />
-        <Trending />
-        <TopViedo />
-        <Menu />
+     
+        <div className="main-page">
+           <TopStory heading="Top Stories" /> 
+          <WeatherAcross />
+          <Trending />  
+          <TopViedo />
 
-        {/* <Button/>   */}
+          {/* <Button/>   */}
+        </div>
       </div>
-    </div>
+   
   );
 }
 

@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Menu from "../Component/Menu";
 import "../Styles/HeaderSection.css";
 import { Headerleft } from "../Assests/Images/index";
 
@@ -6,6 +7,7 @@ import { times } from "../Assests/Images/index";
 import { VscSearch } from "react-icons/vsc";
 
 function HeaderSection() {
+  const [state, setState] = useState(false);
   return (
     <div>
       <div className="Header-Left">
@@ -36,13 +38,16 @@ function HeaderSection() {
           <input type="text" placeholder="Jacob circle .." className="search" />
           <VscSearch className="search-icon" />
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" width="23px">
-          <path
-            fill-rule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-            clip-rule="evenodd"
-          ></path>
-        </svg>
+        {state && <Menu setState={setState} />}
+        <button onClick={() => setState(true)} className="menu-button">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" width="23px">
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
       </div>
 
       <div className="headerBottom"></div>

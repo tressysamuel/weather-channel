@@ -25,8 +25,15 @@ function TopStory({ heading }) {
         <div className="floodassam-card">
           <img src={floodassam} className="floodassam" />
           <div className="floodassam-content">
-            <span>
-              Amid Monsoon Anticipation, West Bengal, Odisha, Jharkhand, Bihar To Be Drenched By Heavy Rains from June 15-18
+            <span>Amid Monsoon Anticipation, West Bengal, Odisha, Jharkhand, Bihar</span>
+          </div>
+        </div>
+        <div className="rainkolkata-card">
+          <img src={rainkolkata} className="rainkolkata" />
+
+          <div className="amid">
+            <span className="amid-monsoon">
+              Amid Monsoon Anticipation, West Bengal, Odisha, Jharkhand, Bihar To Be Drenched
             </span>
           </div>
         </div>

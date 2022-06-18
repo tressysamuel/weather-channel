@@ -81,3 +81,7 @@
 .search-icon {
     color: white;
 }
+
+::placeholder {
+    color: white;
+}

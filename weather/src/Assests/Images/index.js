@@ -7,6 +7,7 @@ import keralacloud from "./keralacloud.jpg";
 import floodassam from "./floodassam.jpg";
 import friday from "./friday.jpg"
 import skys from "./skys.jpg";
+import cloud from "./cloud.png";
 
 export {
     Headerleft,
@@ -18,4 +19,5 @@ export {
     floodassam,
     friday,
     skys,
+    cloud
 }
